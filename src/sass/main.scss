@@ -9,7 +9,6 @@
 // button - стили кнопок(в макете они все одинвковые разный только текст)
 // social_icons - стили иконок соц. сетей
 
-
 @import './base/fonts';
 @import './base/reset';
 @import './base/palette';
@@ -17,6 +16,7 @@
 @import './utils/variables';
 @import './utils/mixins';
 @import './utils/placeholders';
+@import './components/logo';
 @import './components/button';
 @import './components/social_icons';
 @import './layout/header';
