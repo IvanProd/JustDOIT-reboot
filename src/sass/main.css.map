@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,uBAAuB",
+    "sources": [
+        "main.scss",
+        "base/_reset.scss",
+        "base/_palette.scss",
+        "abstracts/_variables.scss",
+        "abstracts/_common.scss",
+        "abstracts/_mixins.scss",
+        "abstracts/_placeholders.scss",
+        "components/_button.scss",
+        "components/_social_icons.scss",
+        "layout/_header.scss",
+        "layout/_menu.scss",
+        "layout/_navigations.scss",
+        "layout/_hero.scss",
+        "layout/_forms.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

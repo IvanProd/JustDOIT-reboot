@@ -1,0 +1,24 @@
+.menu {
+  @media screen and (max-width: 1279px) {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  &.is-open {
+    display: flex;
+    flex-direction: column;
+  }
+}

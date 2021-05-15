@@ -1,7 +1,26 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+/*НАЗНАЧЕНИЕ ПАРШАЛОВ*/
+// reset - зброс стилей
+// palette - палитра проэкта
+// variables - переменные
+// common - формулы flex и контейенр
+// mixins - миксины
+// placeholders - плейсхолдеры
+// logo - логотип сайта
+// button - стили кнопок(в макете они все одинвковые разный только текст)
+// social_icons - стили иконок соц. сетей
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+
+@import './base/fonts';
+@import './base/reset';
+@import './base/palette';
+@import './base/common';
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './components/button';
+@import './components/social_icons';
+@import './layout/header';
+@import './layout/menu';
+@import './layout/navigations';
+@import './layout/hero';
+@import './layout/forms';
