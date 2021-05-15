@@ -1,3 +1,21 @@
+.logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header__logo {
+  padding-top: 5px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-right: 30px;
+  }
+}
+
 .header__logo-icon {
   width: 96px;
   height: 43px;
@@ -15,13 +33,10 @@
 }
 
 .menu__logo {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 40px;
 
   @media screen and (min-width: 1280px) {
-    margin-bottom: 0;
+    display: none;
   }
 }
 
@@ -33,10 +48,6 @@
   .menu__logo:hover,
   .menu__logo:focus & {
     fill: $additional-cr;
-  }
-
-  @media screen and (min-width: 1280px) {
-    display: none;
   }
 }
 

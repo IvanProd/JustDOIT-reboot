@@ -28,14 +28,13 @@
 }
 
 .menu__list {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
   @media screen and (min-width: 1280px) {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    width: 100%;
   }
 }
 
@@ -57,5 +56,10 @@
   margin-bottom: 45px;
   @media screen and (min-width: 768px) {
     margin-bottom: 45px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 0;
+    margin-right: 20px;
   }
 }
