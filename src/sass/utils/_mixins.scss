@@ -3,3 +3,7 @@
   font-size: $fs;
   line-height: $lh;
 }
+@mixin icon_size($w, $h) {
+  width: $w;
+  height: $h;
+}
