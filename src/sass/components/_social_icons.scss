@@ -1,0 +1,30 @@
+.social-list {
+  display: flex;
+}
+
+.social-list__icon {
+  height: 15px;
+  max-width: 20px;
+  fill: $main-text-cr;
+  transition: fill var(--duration-animation) var(--timing-function);
+
+  @media screen and (min-width: 1280px) {
+    height: 19px;
+    max-width: 24px;
+  }
+
+  .social-list__link:hover &,
+  .social-list__link:focus & {
+    fill: $additional-cr;
+  }
+}
+
+.social-list__item {
+  &:not(:last-child) {
+    margin-right: 9.5px;
+
+    @media screen and (min-width: 1280px) {
+      margin-right: 12px;
+    }
+  }
+}
