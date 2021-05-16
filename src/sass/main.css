@@ -97,16 +97,6 @@
   fill: #ab816c;
 }
 
-.list {
-  list-style: none;
-  padding: 0;
-}
-
-.link {
-  text-decoration: none;
-  color: inherit;
-}
-
 .header {
   position: relative;
   display: -webkit-box;
@@ -264,7 +254,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 224px;
   width: 100%;
   padding-top: 33px;
 }
@@ -280,12 +269,13 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    width: 490px;
     padding-top: 57px;
   }
 }
 
 .hero__title {
+  max-width: 224px;
+  width: 100%;
   margin-bottom: 3px;
   font-family: "Caveat Brush";
   font-weight: 400;
@@ -297,6 +287,7 @@
 
 @media screen and (min-width: 1280px) {
   .hero__title {
+    max-width: 490px;
     margin-bottom: 15px;
     font-weight: 400;
     font-size: 64px;
