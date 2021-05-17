@@ -27,3 +27,27 @@
   display: flex;
   justify-content: space-between;
 }
+
+.footer__tel-link:hover,
+.footer__tel-link:focus {
+  color: $additional-cr;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover .footer__tel-icon,
+  &:focus .footer__tel-icon {
+    fill: $additional-cr;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.footer__location-link:hover,
+.footer__location-link:focus {
+  color: $additional-cr;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover .footer__location-icon,
+  &:focus .footer__location-icon {
+    fill: $additional-cr;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
