@@ -11,11 +11,12 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(-40px, 10px);
+    transform: translate(-40px, 20px);
   }
 
   @media screen and (min-width: 1280px) {
-    transform: translateX(-140px);
+    z-index: -100;
+    transform: translate(-140px, 30px);
   }
 }
 
