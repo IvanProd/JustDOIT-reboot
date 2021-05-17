@@ -1,0 +1,18 @@
+.reviews__title {
+  text-align: center;
+  font-size: 24px;
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+  }
+}
+.reviews__descriprtion {
+  text-align: center;
+  margin-top: 17px;
+  font-size: 16px;
+  @media screen and (min-width: 1280px) and (min-width: 768px) {
+    font-size: 18px;
+  }
+}
