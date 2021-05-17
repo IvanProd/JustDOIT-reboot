@@ -2,16 +2,20 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+
+  fill: $main-text-cr;
 }
 
 .header__logo {
-  padding-top: 5px;
+  padding-top: 7px;
 
   @media screen and (min-width: 768px) {
-    padding-top: 20px;
+    margin: 0;
+    padding-top: 27px;
   }
 
   @media screen and (min-width: 1280px) {
+    padding-top: 30px;
     margin-right: 30px;
   }
 }
@@ -43,26 +47,9 @@
 .menu__logo-icon {
   width: 190px;
   height: 85px;
-  fill: $main-text-cr;
 
   .menu__logo:hover,
   .menu__logo:focus & {
     fill: $additional-cr;
   }
 }
-
-.header__logo:hover,
-.header__logo:focus .header__logo-icon {
-  fill: $additional-cr;
-}
-
-// Уберу после добавления базовых стилей
-
-// .list {
-//   list-style: none;
-//   padding: 0;
-// }
-// .link {
-//   text-decoration: none;
-//   color: inherit;
-// }

@@ -18,8 +18,12 @@
 @import './base/common';
 @import './base/container';
 @import './components/logo';
+@import './components/section-title';
 @import './components/button';
 @import './components/social_icons';
+@import './components/rate';
+@import './components/reviews-section';
+@import './components/icon-stars';
 @import './layout/header';
 @import './layout/menu';
 @import './layout/header_bg';
@@ -28,3 +32,6 @@
 @import './layout/about_us';
 @import './layout/forms';
 @import './layout/contact';
+@import './layout/footer';
+@import './layout/footer-bg';
+@import './layout/reviews';

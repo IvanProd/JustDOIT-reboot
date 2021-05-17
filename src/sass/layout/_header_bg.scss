@@ -1,8 +1,8 @@
 .common_up {
   background-image: url(../images/mobile/hero_donut_masterclass/mobile-header-donuts.png),
     url(../images/mobile/header-bg/mobile-header-bg.png);
-  background-size: 130px, cover;
-  background-position-y: 0, -50px;
+  width: 100%;
+  background-size: 130px, contain;
   background-repeat: no-repeat, repeat-x;
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -15,8 +15,8 @@
   @media screen and (min-width: 768px) {
     background-image: url(../images/tablet/hero_donut_masterclass/tablet-header-donuts.png),
       url(../images/tablet/header-bg/tablet-header-bg.png);
-    background-size: 378px, cover;
-    background-position: top 0 right 70px, top 0 right 0;
+    background-size: 378px, contain;
+    background-position: top 0 right 137px, top 0 right 0;
     background-repeat: no-repeat, repeat-x;
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -31,7 +31,7 @@
     background-image: url(../images/desktop/hero_donut_masterclass/desktop-header-spoon.png),
       url(../images/desktop/hero_donut_masterclass/desktop-header-donuts.png),
       url(../images/desktop/header-bg/desktop-header-bg.png);
-    background-size: 178px, 793px, cover;
+    background-size: 178px, 723px, contain;
     background-position: top 166px right 100%, top 0 right 0, top 0 right 0;
     background-repeat: no-repeat, no-repeat, repeat-x;
 
