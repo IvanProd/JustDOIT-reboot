@@ -3,16 +3,12 @@
 }
 
 .social-list__icon {
-  //РАЗМЕР ИКОНОК ЗАДАН ПО САМОЙ ШИРОКОЙ( задала тут рамер чтобы они не были по умолчанию width-350px, все иконки по размеру разные, лучше его задавать инлайново, а тут потом убрать
-
   height: 15px;
-  max-width: 20px;
   fill: $main-text-cr;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   @media screen and (min-width: 1280px) {
     height: 19px;
-    max-width: 24px;
   }
 
   .social-list__link:hover &,
@@ -28,5 +24,29 @@
     @media screen and (min-width: 1280px) {
       margin-right: 12px;
     }
+  }
+}
+
+.social-list__tw {
+  width: 19px;
+
+  @media screen and (min-width: 1280px) {
+    width: 24px;
+  }
+}
+
+.social-list__inst {
+  width: 15px;
+
+  @media screen and (min-width: 1280px) {
+    width: 19px;
+  }
+}
+
+.social-list__fb {
+  width: 8px;
+
+  @media screen and (min-width: 1280px) {
+    width: 10px;
   }
 }
