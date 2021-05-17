@@ -15,3 +15,10 @@
     margin-bottom: 10px;
   }
 }
+.reviews__title {
+  text-align: center;
+  font-size: 24px;
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+  }
+}
