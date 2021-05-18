@@ -1,0 +1,147 @@
+.program__container {
+  display: block;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -32px;
+  /*   margin-top: -21px; */
+}
+
+.grid__item {
+  flex-basis: calc((100% - 30px * 2) / 2);
+  margin-left: 32px;
+}
+
+.program__content-box {
+  /*   flex-basis: calc((100% - 30px) / 2); */
+  width: 290px;
+
+  @media screen and (min-width: 768px) {
+    width: 300px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 392px;
+  }
+}
+
+.program__content-box:last-child {
+  transform: translateY(21px);
+}
+
+.program__item {
+  flex-basis: calc((100% - 2 * 30px) / 6 * 2);
+  padding: 13px 0px;
+  text-align: center;
+  width: 180px;
+  background-color: $alternative-bg-cr;
+  box-shadow: 0px 4px 4px rgba(171, 129, 108, 0.25);
+  border: none;
+  border-radius: 50%;
+
+  margin-bottom: 60px;
+}
+
+/* .program__item:nth-child(odd) {
+  transform: translateY(-52px);
+} */
+
+.program__item:nth-child(even) {
+  transform: translateY(52px);
+}
+
+.program-card__title {
+  font-family: $title-font;
+  @include fonts(400, 24px, 1.25);
+  text-align: center;
+  color: $programs-text-cr;
+
+  @media screen and (min-width: 1280px) {
+    @include fonts(400, 18px, 1.27);
+  }
+}
+
+.program-card__text {
+  font-family: $alternative-font-regular;
+  @include fonts(400, 16px, 1.25);
+  text-align: center;
+  color: $main-text-cr;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: 1280px) {
+    @include fonts(400, 14px, 1.21);
+  }
+}
+
+.program-img {
+  transform: translateY(52px);
+}
+
+.program__item-text {
+  padding-top: 21px;
+  padding-bottom: 0px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 0px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 21px;
+  }
+}
+
+.program__text {
+  padding-bottom: 15px;
+}
+
+.program__text::before {
+  content: '> ';
+}
+
+.program__text:last-child {
+  margin-bottom: -15px;
+}
+
+.program__img-wrap {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-47px);
+}
+
+.program__icon {
+  margin-bottom: 11px;
+}
+
+.program__text-label {
+  font-family: $title-font;
+  @include fonts(400, 18px, 3.61);
+  text-align: center;
+  color: $additional-cr;
+  text-decoration: none;
+  cursor: pointer;
+
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
+}
+
+.program__text-add {
+  display: none;
+
+  @media screen and (min-width: 1280px) {
+    display: block;
+  }
+}
