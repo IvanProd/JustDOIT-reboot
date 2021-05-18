@@ -3,15 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-padding-bottom: 47px;
 
-@media screen and (min-width: 768px) {
-  padding-bottom: 50px;
-}
-
-@media screen and (min-width: 1280px) {
-  padding-bottom: 82px;
-}
   }
 
 .contact__lable {
@@ -43,11 +35,10 @@ padding-bottom: 47px;
   border-right: none;
   border-left: none;
   border-bottom: 1px solid #ab816c;
-  background: transparent;
 
   &:hover,
   &:focus {
-    outline: none;
+    outline: no;
   }
   &:not(:last-child) {
     margin-bottom: 25px;
