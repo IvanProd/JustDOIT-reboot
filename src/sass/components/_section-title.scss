@@ -18,7 +18,10 @@
 .reviews__title {
   text-align: center;
   font-size: 24px;
+  line-height: 2.7;
+
   @media screen and (min-width: 1280px) {
     font-size: 36px;
+    line-height: 1.8;
   }
 }
