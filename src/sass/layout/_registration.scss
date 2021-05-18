@@ -1,15 +1,19 @@
 .registration {
-
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     @media screen and (min-width: 320px) and (max-width: 767px) {
-        width: 100%;
-        margin-bottom: 27px;
-        margin-left: auto;
-        margin-right: auto;
+        
+        height: 510px;
+        background: $registration-tab-cr;
+        box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+        border-radius: 150px 150px 0px 0px ;
+
     }
     
 }
 .registration__conteiner{
-    
     padding-top: 15px;
     padding-bottom: 34px;
     @media screen and (max-width: 767px) {

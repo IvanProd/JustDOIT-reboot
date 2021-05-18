@@ -1,4 +1,4 @@
-;(() => {
+(() => {
     const menuBtnRef = document.querySelector("[data-menu-button]")
     const mobileMenuRef = document.querySelector("[data-menu]")
     menuBtnRef.addEventListener("click", () => {
@@ -23,4 +23,4 @@
     function toggleModal() {
       refs.modal.classList.toggle('is-hidden');
     }
-  })(); 
+  })();
