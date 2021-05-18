@@ -1,0 +1,91 @@
+.registration {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+        
+        height: 510px;
+        background: $registration-tab-cr;
+        box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+        border-radius: 150px 150px 0px 0px ;
+    }
+    
+}
+.registration__conteiner{
+
+    padding-top: 15px;
+    padding-bottom: 34px;
+    @media screen and (max-width: 767px) {
+
+    }
+
+}
+
+.registration__data-box{
+
+    margin-top: 11px;
+    
+
+    &::after{
+        content: '';
+        display: block;
+        margin: 20px auto 0 auto;
+        width: 265px;
+        height: 0;
+        border: 1px solid $registration-line-cr;
+
+        @media screen and (min-width: 768px) {
+            transform: rotate(90deg);
+        }
+        
+    }
+}
+
+.registration__area {
+
+}
+.registration__data {
+    width: 114px;
+    margin: 0 auto;
+    font-family: $alternative-font-regular;
+    font-style: normal;
+    @include fonts(500, 18px, 1.2);
+    text-align: center;
+  
+}
+.registration__price {
+    margin-top: 25px;
+    font-family: $alternative-font-regular;
+    @include fonts(500, 18px, 1.2);
+    text-align: center;
+}
+
+
+.registration__form {
+    margin-top: 11px;
+}
+.registration__entry-field--tittle {
+    display: block;
+    margin-bottom: 17px;
+    font-family: $alternative-font-regular;
+    @include fonts(400, 16px, 1.25);
+    text-align: center;
+}
+.registration__entry-field {
+    margin-bottom: 25px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #AB816C;
+}
+.placeholder{
+    font-family: $alternative-font-italic;
+    font-style: normal;
+    @include fonts(400, 16px, 1.25);
+    color: $registration-line-cr;
+}
+
+.registration__button{
+    margin: 0 auto;
+
+}
