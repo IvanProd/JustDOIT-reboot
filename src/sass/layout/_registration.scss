@@ -6,19 +6,21 @@
     
 }
 .registration__tittle{
+    text-align: center;
+    
     @media screen and (min-width: 768px) {
-        text-align: center;
+        
     }
     @media screen and (min-width: 1280px) {
         margin-bottom: 10px;
     }
 }
 .registration__conteiner{
-    padding-top: 15px;
-    padding-bottom: 34px;
+
     @media screen and (max-width: 767px) {
-        width: 290px;
         height: 510px;
+        padding-top: 15px;
+        padding-bottom: 47px;
         background: $registration-tab-cr;
         box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
         border-radius: 150px 150px 0px 0px ;
@@ -28,6 +30,7 @@
 .registration__area {
     @media screen and (min-width: 768px) {
         display: flex;
+        flex-direction: calc(100% / 3 -30px);
         align-items: center;
         padding: 35px;
         width: 634px;
@@ -44,40 +47,34 @@
 }
 
 .registration__data-box{
-    margin-top: 11px;
+    @media screen and (max-width: 767px) {
+        margin-bottom: 11px;
+    }
    @media screen and (min-width: 768px) {
        position: relative;
        margin-top: 0;
        padding-right: 30px;
        width: 144px;
    } 
+   &::after{
+    content: '';
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 265px;
+    height: 0;
+    border: 1px solid $registration-line-cr;
 
-
-}
-.test{
-    &::after{
-        content: '';
-        display: block;
-        margin: 20px auto 0 auto;
-        width: 265px;
-        height: 0;
-        border: 1px solid $registration-line-cr;
-
-        @media screen and (min-width: 768px) {
-            position: absolute;
-            left: 50px;
-            align-items: center;
-            width: 190px;
-            transform: rotate(90deg);
-            margin: 0;
-        }
-        
+    @media screen and (min-width: 768px) {
+        width: 190px;
+        transform: rotate(90deg);
     }
+    
+}
+
 }
 
 .registration__data {
-    display: block;
-    width: 114px;
+
     font-family: $alternative-font-regular;
     font-style: normal;
     @include fonts(500, 18px, 1.2);
