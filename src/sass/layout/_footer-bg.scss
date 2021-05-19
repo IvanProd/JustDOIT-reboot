@@ -1,6 +1,6 @@
 .common_down {
   background-image: url(../images/mobile/footer-bg/mobile-footer-bg.png);
-  background-position: top 52px right 0, center;
+  background-position: top 19px right 0, center;
   background-size: contain;
   background-repeat: no-repeat;
   min-width: 320px;
@@ -16,7 +16,7 @@
 
   @media screen and (min-width: 768px) {
     background-image: url(../images/tablet/1/tablet-footer-bg.png);
-    background-position: top 16px right 0, center;
+    background-position: top 7px right 0, center;
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -34,7 +34,7 @@
   @media screen and (min-width: 1280px) {
     background-image: url(../images/desktop/contact/desktop-footer-spoon-and-flour.png);
     background-image: url(../images/desktop/footer-bg/desktop-footer-bg.png);
-    background-position: bottom 0 left 100%, top 36px center;
+    background-position: bottom 0 left 100%, top -15px center;
     background-size: 362px, contain;
     background-repeat: no-repeat;
 

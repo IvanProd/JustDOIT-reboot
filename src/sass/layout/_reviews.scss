@@ -33,8 +33,11 @@
 .reviews__item {
   display: none;
   font-size: 14px;
-
   text-align: center;
+  p {
+    font-family: Montserrat;
+    font-style: italic;
+  }
   &:nth-child(2) {
     display: block;
     p {
@@ -146,16 +149,13 @@
 }
 
 .reviews-section {
-  padding-top: 37px;
   padding-bottom: 30px;
 
   @media screen and (min-width: 768px) {
     padding-bottom: 45px;
-    padding-top: 30px;
   }
 
   @media screen and (min-width: 1280px) {
-    padding-top: 68px;
     padding-bottom: 68px;
   }
 }
