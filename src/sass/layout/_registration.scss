@@ -1,6 +1,6 @@
 .registration {
     width: 100%;
-    margin-top: 30px;
+    margin-bottom: 77px;
     margin-left: auto;
     margin-right: auto;
     
@@ -47,26 +47,31 @@
 }
 
 .registration__data-box{
+    position: relative;
     @media screen and (max-width: 767px) {
         margin-bottom: 11px;
     }
    @media screen and (min-width: 768px) {
-       position: relative;
+       align-self: flex-start;
        margin-top: 0;
        padding-right: 30px;
        width: 144px;
+       padding-top: 12px;
    } 
    &::after{
     content: '';
     display: block;
-    margin: 20px auto 0 auto;
     width: 265px;
     height: 0;
     border: 1px solid $registration-line-cr;
+    @media screen and (max-width: 767px) {
+        margin: 20px auto 0 auto;
+    }
 
     @media screen and (min-width: 768px) {
         width: 190px;
-        transform: rotate(90deg);
+        transform: translateX(47px) translateY(-10px) rotate(90deg);
+        
     }
     
 }
@@ -95,6 +100,7 @@
     text-align: center;
     @media screen and (min-width: 768px) {
         text-align: right;
+        margin-top: 30px;
     }
 }
 
@@ -134,9 +140,7 @@
     font-family: $alternative-font-italic;
     font-style: normal;
     @include fonts(400, 16px, 1.25);
-    color: rgba(171, 129, 108, 0.5);
-
-    // $registration-line-cr
+    color: $registration-line-cr;
 }
 
 .registration__button{
