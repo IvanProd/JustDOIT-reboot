@@ -32,15 +32,17 @@
   }
 
   @media screen and (min-width: 1280px) {
+    background-image: url(../images/desktop/contact/desktop-footer-spoon-and-flour.png);
     background-image: url(../images/desktop/footer-bg/desktop-footer-bg.png);
-    background-position: top 36px center;
-    background-size: contain;
+    background-position: bottom 0 left 100%, top 36px center;
+    background-size: 362px, contain;
     background-repeat: no-repeat;
 
     @media screen and (min-device-pixel-ratio: 2),
       screen and(min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      background-image: url(../images/desktop/footer-bg/desktop-footer-bg@2x.png);
+      background-image: url(../images/desktop/contact/desktop-footer-spoon-and-flour@2x.png),
+        url(../images/desktop/footer-bg/desktop-footer-bg@2x.png);
     }
   }
 }
