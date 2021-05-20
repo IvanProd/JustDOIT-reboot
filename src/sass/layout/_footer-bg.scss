@@ -1,9 +1,10 @@
 .common_down {
-  background-image: url(../images/mobile/footer-bg/mobile-footer-bg.png);
+  background-image: url('../images/mobile/footer-bg/mobile-footer-bg.png');
   background-position: top 19px right 0, center;
   background-size: contain;
   background-repeat: no-repeat;
   min-width: 320px;
+  margin: 0 auto;
   @media screen and (min-width: 400px) {
     background-size: cover;
   }
@@ -11,15 +12,15 @@
   @media screen and (min-device-pixel-ratio: 2),
     screen and(min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url(../images/mobile/footer-bg/mobile-footer-bg@2x.png);
+    background-image: url('../images/mobile/footer-bg/mobile-footer-bg@2x.png');
   }
 
   @media screen and (min-width: 768px) {
-    background-image: url(../images/tablet/1/tablet-footer-bg.png);
+    background-image: url('../images/tablet/1/tablet-footer-bg.png');
     background-position: top 7px right 0, center;
     background-size: contain;
     background-repeat: no-repeat;
-
+    max-width: 768px;
     @media screen and (min-width: 900px) {
       background-size: cover;
     }
@@ -27,22 +28,26 @@
     @media screen and (min-device-pixel-ratio: 2),
       screen and(min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      background-image: url(../images/tablet/1/tablet-footer-bg@2x.png);
+      background-image: url('../images/tablet/contact/tablet-footer-spoon-and-flour@2x.png'),
+      url('../images/tablet/registration/tablet-footer-confetti@2x.png'),
+      url('../images/tablet/1/tablet-footer-bg@2x.png');
     }
   }
 
   @media screen and (min-width: 1280px) {
-    background-image: url(../images/desktop/contact/desktop-footer-spoon-and-flour.png);
-    background-image: url(../images/desktop/footer-bg/desktop-footer-bg.png);
-    background-position: bottom 0 left 100%, top -15px center;
-    background-size: 362px, contain;
+    background-image: url('../images/desktop/contact/desktop-footer-spoon-and-flour.png'),
+    url('../images/desktop/registration/desktop--footer-confetti.png'),
+    url('../images/desktop/footer-bg/desktop-footer-bg.png'); 
+    background-position: bottom 0 left 100%, 720px  680px, top -15px center ;
+    background-size: 325px, 544px, contain,;
     background-repeat: no-repeat;
-
+    max-width: 1280px;
     @media screen and (min-device-pixel-ratio: 2),
       screen and(min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      background-image: url(../images/desktop/contact/desktop-footer-spoon-and-flour@2x.png),
-        url(../images/desktop/footer-bg/desktop-footer-bg@2x.png);
+      background-image: url('../images/desktop/contact/desktop-footer-spoon-and-flour@2x.png'),
+      url('../images/desktop/registration/desktop--footer-confetti@2x.png'),
+      url('../images/desktop/footer-bg/desktop-footer-bg@2x.png');
     }
   }
 }
