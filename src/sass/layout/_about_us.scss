@@ -1,3 +1,10 @@
+.about {
+  @media screen and (min-width: 1280px) {
+    padding-top: 100px;
+    padding-bottom: 39px;
+  }
+}
+
 .about__content-wrap {
   @media screen and (min-width: 768px) {
     position: relative;
@@ -7,6 +14,10 @@
 }
 
 .about__img-wrap {
+  @media screen and (max-width: 768px) {
+    pointer-events: none;
+  }
+
   @media screen and (min-width: 768px) {
     position: absolute;
     top: 0;
@@ -16,7 +27,7 @@
 
   @media screen and (min-width: 1280px) {
     z-index: -100;
-    transform: translate(-140px, 30px);
+    transform: translate(-140px, -69px);
   }
 }
 
@@ -27,8 +38,6 @@
 
   @media screen and (min-width: 1280px) {
     max-width: 392px;
-    padding-top: 100px;
-    padding-bottom: 39px;
     padding-right: 5px;
   }
 

@@ -1,3 +1,4 @@
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -11,9 +12,10 @@
   margin-bottom: 27px;
   @include fonts(400, 16px, 1.0);
   color: $main-text-cr;
+  margin-bottom: 24px;
 
   @media screen and (min-width: 1280px) {
-    @include fonts(400, 18px, 3.61);
+    @include fonts(400, 18px, 1.0);
   }
 }
 
@@ -21,7 +23,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 37px 0;
 
 }
 
@@ -40,6 +41,7 @@
   }
 
   &:not(:last-child) {
+
     margin-bottom: 25px;
   }
 
