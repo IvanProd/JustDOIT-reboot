@@ -148,7 +148,8 @@
     }
   }
 }
-.placeholder {
+.placeholder,
+::-webkit-input-placeholder{
   font-family: $alternative-font-italic;
   font-style: normal;
   @include fonts(400, 16px, 1.25);
