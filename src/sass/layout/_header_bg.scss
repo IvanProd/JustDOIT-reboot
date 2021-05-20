@@ -3,6 +3,7 @@
     url(../images/mobile/header-bg/mobile-header-bg.png);
   margin-left: auto;
   margin-right: auto;
+  min-width: 320px;
   max-width: 480px;
   background-position: top 0 left 0, top 0 center;
   background-size: 130px, contain;
@@ -23,7 +24,7 @@
     background-image: url(../images/tablet/hero_donut_masterclass/tablet-header-donuts.png),
       url(../images/tablet/header-bg/tablet-header-bg.png);
     max-width: 900px;
-    background-position: center;
+    // background-position: center;
     background-size: 378px, contain;
     background-position: top 0 right 137px, top 0 right 0;
     background-repeat: no-repeat;
