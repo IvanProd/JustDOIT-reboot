@@ -1,27 +1,21 @@
+
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-padding-bottom: 47px;
-
-@media screen and (min-width: 768px) {
-  padding-bottom: 50px;
-}
-
-@media screen and (min-width: 1280px) {
-  padding-bottom: 82px;
-}
   }
 
 .contact__lable {
   text-align: center;
   font-family: $alternative-font-regular;
+  margin-bottom: 27px;
   @include fonts(400, 16px, 1.0);
   color: $main-text-cr;
+  margin-bottom: 24px;
 
   @media screen and (min-width: 1280px) {
-    @include fonts(400, 18px, 3.61);
+    @include fonts(400, 18px, 1.0);
   }
 }
 
@@ -29,11 +23,7 @@ padding-bottom: 47px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 37px 0;
 
-  @media screen and (min-width: 768px) {
-    margin: 0 0 27px 0;
-}
 }
 
 .contact__form-field {
@@ -45,11 +35,13 @@ padding-bottom: 47px;
   border-bottom: 1px solid #ab816c;
   background: transparent;
 
-  &:hover,
   &:focus {
     outline: none;
+    border-bottom: 2px solid #ab816c;
   }
+
   &:not(:last-child) {
+
     margin-bottom: 25px;
   }
 
