@@ -1,9 +1,5 @@
-.contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-padding-bottom: 47px;
+.contact-section{
+  padding-bottom: 47px;
 
 @media screen and (min-width: 768px) {
   padding-bottom: 50px;
@@ -12,6 +8,13 @@ padding-bottom: 47px;
 @media screen and (min-width: 1280px) {
   padding-bottom: 82px;
 }
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
   }
 
 .contact__lable {
@@ -19,9 +22,10 @@ padding-bottom: 47px;
   font-family: $alternative-font-regular;
   @include fonts(400, 16px, 1.0);
   color: $main-text-cr;
+  margin-bottom: 24px;
 
   @media screen and (min-width: 1280px) {
-    @include fonts(400, 18px, 3.61);
+    @include fonts(400, 18px, 1.0);
   }
 }
 
@@ -29,11 +33,7 @@ padding-bottom: 47px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 37px 0;
 
-  @media screen and (min-width: 768px) {
-    margin: 0 0 27px 0;
-}
 }
 
 .contact__form-field {
@@ -49,7 +49,7 @@ padding-bottom: 47px;
   &:focus {
     outline: none;
   }
-  &:not(:last-child) {
+  &:not(:nth-child(2)) {
     margin-bottom: 25px;
   }
 
@@ -62,5 +62,12 @@ padding-bottom: 47px;
 }
 @media screen and (min-width: 1280px) {
   width: 430px;
+}
+}
+.contact__btn{
+  margin: 37px 0 0  0;
+
+  @media screen and (min-width: 768px) {
+    margin: 27px 0 0  0;
 }
 }
