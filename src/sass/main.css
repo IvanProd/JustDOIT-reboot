@@ -664,16 +664,10 @@ img {
 @media screen and (min-width: 768px) {
   .common_up {
     background-image: url(../images/tablet/hero_donut_masterclass/tablet-header-donuts.png), url(../images/tablet/header-bg/tablet-header-bg.png);
-    max-width: 900px;
+    max-width: 768px;
     background-size: 378px, contain;
     background-position: top 0 right 137px, top 0 right 0;
     background-repeat: no-repeat;
-  }
-}
-
-@media screen and (min-width: 768px) and (min-width: 900px) {
-  .common_up {
-    background-position: top 0 right 137px, top -50px right 0;
   }
 }
 
@@ -1081,6 +1075,7 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   min-width: 320px;
+  max-width: 480px;
   margin: 0 auto;
 }
 
@@ -1106,12 +1101,6 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (min-width: 900px) {
-  .common_down {
-    background-size: cover;
-  }
-}
-
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .common_down {
     background-image: url("../images/tablet/contact/tablet-footer-spoon-and-flour@2x.png"), url("../images/tablet/registration/tablet-footer-confetti@2x.png"), url("../images/tablet/1/tablet-footer-bg@2x.png");
@@ -1121,7 +1110,7 @@ img {
 @media screen and (min-width: 1280px) {
   .common_down {
     background-image: url("../images/desktop/contact/desktop-footer-spoon-and-flour.png"), url("../images/desktop/registration/desktop--footer-confetti.png"), url("../images/desktop/footer-bg/desktop-footer-bg.png");
-    background-position: bottom 0 left 100%, 720px 680px, top -15px center;
+    background-position: bottom 0 left 100%, 720px 680px, top center;
     background-size: 325px, 544px, contain;
     background-repeat: no-repeat;
     max-width: 1280px;
@@ -1842,7 +1831,7 @@ img {
   margin-bottom: 25px;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #AB816C;
+  border-bottom: 1px solid #ab816c;
 }
 
 @media screen and (min-width: 768px) {

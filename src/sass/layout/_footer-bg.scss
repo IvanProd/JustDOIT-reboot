@@ -4,6 +4,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   min-width: 320px;
+  max-width: 480px;
   margin: 0 auto;
   @media screen and (min-width: 400px) {
     background-size: cover;
@@ -21,9 +22,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 768px;
-    @media screen and (min-width: 900px) {
-      background-size: cover;
-    }
+    // @media screen and (min-width: 900px) {
+    //   background-size: cover;
+    // }
 
     @media screen and (min-device-pixel-ratio: 2),
       screen and(min-resolution: 192dpi),
@@ -38,7 +39,7 @@
     background-image: url('../images/desktop/contact/desktop-footer-spoon-and-flour.png'),
       url('../images/desktop/registration/desktop--footer-confetti.png'),
       url('../images/desktop/footer-bg/desktop-footer-bg.png');
-    background-position: bottom 0 left 100%, 720px 680px, top -15px center;
+    background-position: bottom 0 left 100%, 720px 680px, top center;
     background-size: 325px, 544px, contain;
     background-repeat: no-repeat;
     max-width: 1280px;
