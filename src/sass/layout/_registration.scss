@@ -18,6 +18,7 @@
 }
 .registration__tittle {
   text-align: center;
+  margin-bottom: 11px;
 
   @media screen and (min-width: 768px) {
   }
@@ -57,14 +58,14 @@
   position: relative;
   @media screen and (max-width: 767px) {
     margin-bottom: 11px;
-    padding: 0 88px;
+    
   }
   @media screen and (min-width: 768px) {
     align-self: flex-start;
     margin-top: 0;
     padding-right: 30px;
     width: 144px;
-    padding-top: 12px;
+    padding-top: 19px;
   }
   &::after {
     content: '';
@@ -73,12 +74,12 @@
     height: 0;
     border: 1px solid $registration-line-cr;
     @media screen and (max-width: 767px) {
-      margin: 20px auto 0 auto;
+      margin: 0 auto;
     }
 
     @media screen and (min-width: 768px) {
       width: 190px;
-      transform: translateX(47px) translateY(-10px) rotate(90deg);
+      transform: translateX(47px) translateY(-35px) rotate(90deg);
     }
   }
 }
@@ -90,6 +91,8 @@
   text-align: center;
   @media screen and (max-width: 767px) {
     margin: 0 auto;
+    padding: 0 88px;
+    margin-bottom: 27px;
   }
   @media screen and (min-width: 768px) {
     text-align: right;
@@ -97,10 +100,11 @@
   }
 }
 .registration__price {
-  margin-top: 25px;
+
   font-family: $alternative-font-regular;
   @include fonts(500, 18px, 1.2);
   text-align: center;
+  margin-bottom: 20px;
   @media screen and (min-width: 768px) {
     text-align: right;
     margin-top: 30px;
@@ -108,11 +112,12 @@
 }
 
 .registration__form {
-  margin-top: 11px;
+  margin-bottom: 37px;
   @media screen and (min-width: 768px) {
     padding-right: 25px;
     margin-top: 0;
     margin-left: 30px;
+    margin-bottom: 0;
   }
   @media screen and (min-width: 1280px) {
     padding: 19px 38px 19px 0;
@@ -130,12 +135,17 @@
   }
 }
 .registration__entry-field {
-  margin-bottom: 25px;
+  
   width: 100%;
   border: none;
   border-bottom: 1px solid #ab816c;
+  &:not(:last-child){
+    margin-bottom: 25px;
+  }
   @media screen and (min-width: 768px) {
-    margin-bottom: 15px;
+    &:not(:last-child){
+      margin-bottom: 15px;
+    }
   }
 }
 .placeholder {
