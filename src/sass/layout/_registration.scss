@@ -44,6 +44,7 @@
 }
 .registration__conteiner {
   @media screen and (max-width: 767px) {
+    width: 290px;
     height: 510px;
     padding-top: 15px;
     padding-bottom: 47px;
@@ -129,6 +130,9 @@
 
 .registration__form {
   margin-bottom: 37px;
+  @media screen and (max-width: 767px) {
+    padding: 0 15px;
+  }
   @media screen and (min-width: 768px) {
     padding-right: 25px;
     margin-top: 0;

@@ -17,7 +17,7 @@ padding-bottom: 47px;
 .contact__lable {
   text-align: center;
   font-family: $alternative-font-regular;
-  @include fonts(400, 16px, 4.06);
+  @include fonts(400, 16px, 1.0);
   color: $main-text-cr;
 
   @media screen and (min-width: 1280px) {
