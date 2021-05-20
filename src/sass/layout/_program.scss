@@ -1,16 +1,17 @@
 .program__container {
   display: block;
-  margin-bottom: 18px;
+  padding-bottom: 18px;
 
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 0px;
   }
 
   @media screen and (min-width: 1280px) {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 68px;
+    padding-bottom: 68px;
   }
 }
 
@@ -41,7 +42,7 @@
 
   &:last-child {
     transform: translateY(0px);
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 
     @media screen and (min-width: 768px) {
       transform: translateY(10px);
@@ -165,6 +166,10 @@
   @media screen and (min-width: 1280px) {
     transform: translateY(-40px);
   }
+}
+
+.program-card__icon {
+  fill: $programs-icons-cr;
 }
 
 .icon-chef-hat {
