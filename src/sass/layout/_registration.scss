@@ -1,165 +1,150 @@
 .registration {
-    width: 100%;
-    margin-bottom: 27px;
-    margin-left: auto;
-    margin-right: auto;
-    @media screen and (min-width: 768px) {
-        margin-bottom: 51px;
-        min-width: 768px;
-        background-image: url('../images/tablet/registration/tablet-footer-registration-donut.png');
-    }
-    @media screen and (min-width: 1280px) {
-        margin-bottom: 77px;
-        background-image: url('../images/desktop/registration/desktop-footer-registration-donut.png');
-        background-size: 300px;
-        background-position: 22px 5px;
-        background-repeat: no-repeat;
-        
-        
-        
-    }
+  width: 100%;
+  margin-bottom: 27px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 51px;
+    min-width: 768px;
+    background-image: url('../images/tablet/registration/tablet-footer-registration-donut.png');
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 77px;
+    background-image: url('../images/desktop/registration/desktop-footer-registration-donut.png');
+    background-size: 300px;
+    background-position: 22px 5px;
+    background-repeat: no-repeat;
+  }
 }
-.registration__tittle{
-    text-align: center;
-    
-    @media screen and (min-width: 768px) {
-        
-    }
-    @media screen and (min-width: 1280px) {
-        margin-bottom: 10px;
-    }
+.registration__tittle {
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 10px;
+  }
 }
-.registration__conteiner{
-
-    @media screen and (max-width: 767px) {
-        height: 510px;
-        padding-top: 15px;
-        padding-bottom: 47px;
-        background: $registration-tab-cr;
-        box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
-        border-radius: 150px 150px 0px 0px ;
-    }
-
-
+.registration__conteiner {
+  @media screen and (max-width: 767px) {
+    height: 510px;
+    padding-top: 15px;
+    padding-bottom: 47px;
+    background: $registration-tab-cr;
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+    border-radius: 150px 150px 0px 0px;
+  }
 }
 .registration__area {
-    @media screen and (min-width: 768px) {
-        display: flex;
-        flex-direction: calc(100% / 3 -30px);
-        align-items: center;
-        padding: 35px;
-        width: 634px;
-        height: 260px;
-        background: $registration-tab-cr;
-        box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
-        border-radius: 150px;
-    }
-    @media screen and (min-width: 1280px) {
-        padding: 35px 98px;
-        width: 822px;
-    }
-
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: calc(100% / 3 -30px);
+    align-items: center;
+    padding: 35px;
+    width: 634px;
+    height: 260px;
+    background: $registration-tab-cr;
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+    border-radius: 150px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding: 35px 98px;
+    width: 822px;
+  }
 }
 
-.registration__data-box{
-    position: relative;
-    @media screen and (max-width: 767px) {
-        margin-bottom: 11px;
-        padding: 0 88px;
-    }
-   @media screen and (min-width: 768px) {
-       align-self: flex-start;
-       margin-top: 0;
-       padding-right: 30px;
-       width: 144px;
-       padding-top: 12px;
-   } 
-   &::after{
+.registration__data-box {
+  position: relative;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 11px;
+    padding: 0 88px;
+  }
+  @media screen and (min-width: 768px) {
+    align-self: flex-start;
+    margin-top: 0;
+    padding-right: 30px;
+    width: 144px;
+    padding-top: 12px;
+  }
+  &::after {
     content: '';
     display: block;
     width: 265px;
     height: 0;
     border: 1px solid $registration-line-cr;
     @media screen and (max-width: 767px) {
-        margin: 20px auto 0 auto;
+      margin: 20px auto 0 auto;
     }
 
     @media screen and (min-width: 768px) {
-        width: 190px;
-        transform: translateX(47px) translateY(-10px) rotate(90deg);
-        
+      width: 190px;
+      transform: translateX(47px) translateY(-10px) rotate(90deg);
     }
-    
-}
-
+  }
 }
 
 .registration__data {
-
-    font-family: $alternative-font-regular;
-    font-style: normal;
-    @include fonts(500, 18px, 1.2);
-    text-align: center;
-    @media screen and (max-width: 767px) {
-        margin: 0 auto;
-    }
-    @media screen and (min-width: 768px) {
-        text-align: right;
-        margin-left: auto;
-    }
-  
+  font-family: $alternative-font-regular;
+  font-style: normal;
+  @include fonts(500, 18px, 1.2);
+  text-align: center;
+  @media screen and (max-width: 767px) {
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 768px) {
+    text-align: right;
+    margin-left: auto;
+  }
 }
 .registration__price {
-    margin-top: 25px;
-    font-family: $alternative-font-regular;
-    @include fonts(500, 18px, 1.2);
-    text-align: center;
-    @media screen and (min-width: 768px) {
-        text-align: right;
-        margin-top: 30px;
-    }
+  margin-top: 25px;
+  font-family: $alternative-font-regular;
+  @include fonts(500, 18px, 1.2);
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    text-align: right;
+    margin-top: 30px;
+  }
 }
-
 
 .registration__form {
-    margin-top: 11px;
-    @media screen and (min-width: 768px) {
-        padding-right: 25px;
-        margin-top: 0;
-        margin-left: 30px;
-    }
-    @media screen and (min-width: 1280px) {
-        padding: 19px 38px 19px 0;
-        padding-right: 38px;
-    }
+  margin-top: 11px;
+  @media screen and (min-width: 768px) {
+    padding-right: 25px;
+    margin-top: 0;
+    margin-left: 30px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding: 19px 38px 19px 0;
+    padding-right: 38px;
+  }
 }
 .registration__entry-field--tittle {
-    display: block;
-    margin-bottom: 17px;
-    font-family: $alternative-font-regular;
-    @include fonts(400, 16px, 1.25);
-    text-align: center;
-    @media screen and (min-width: 768px) {
-        text-align: left;
-    }
+  display: block;
+  margin-bottom: 17px;
+  font-family: $alternative-font-regular;
+  @include fonts(400, 16px, 1.25);
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 .registration__entry-field {
-    margin-bottom: 25px;
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #AB816C;
-    @media screen and (min-width: 768px) {
-        margin-bottom: 15px;
-    }
+  margin-bottom: 25px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ab816c;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 15px;
+  }
 }
-.placeholder{
-    font-family: $alternative-font-italic;
-    font-style: normal;
-    @include fonts(400, 16px, 1.25);
-    color: $registration-line-cr;
+.placeholder {
+  font-family: $alternative-font-italic;
+  font-style: normal;
+  @include fonts(400, 16px, 1.25);
+  color: $registration-line-cr;
 }
 
-.registration__button{
-    margin: 0 auto;
-
+.registration__button {
+  margin: 0 auto;
 }
