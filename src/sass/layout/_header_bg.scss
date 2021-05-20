@@ -1,17 +1,17 @@
 .common_up {
   background-image: url(../images/mobile/hero_donut_masterclass/mobile-header-donuts.png),
     url(../images/mobile/header-bg/mobile-header-bg.png);
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 320px;
-  max-width: 480px;
+  // margin-left: auto;
+  // margin-right: auto;
+  // min-width: 320px;
+  // max-width: 480px;
   background-position: top 0 left 0, top 0 center;
-  background-size: 130px, contain;
+  background-size: 130px auto, 100% 460px;
   background-repeat: no-repeat;
 
-  @media screen and (min-width: 400px) {
-    background-position: top 0 left 0, top -70px center;
-  }
+  // @media screen and (min-width: 400px) {
+  //   background-position: top 0 left 0, top -70px center;
+  // }
 
   @media screen and (min-device-pixel-ratio: 2),
     screen and(min-resolution: 192dpi),
@@ -23,9 +23,9 @@
   @media screen and (min-width: 768px) {
     background-image: url(../images/tablet/hero_donut_masterclass/tablet-header-donuts.png),
       url(../images/tablet/header-bg/tablet-header-bg.png);
-    max-width: 768px;
+    // max-width: 768px;
     // background-position: center;
-    background-size: 378px, contain;
+    background-size: 378px auto, 100% 622px;
     background-position: top 0 right 137px, top 0 right 0;
     background-repeat: no-repeat;
 
@@ -45,8 +45,8 @@
     background-image: url(../images/desktop/hero_donut_masterclass/desktop-header-spoon.png),
       url(../images/desktop/hero_donut_masterclass/desktop-header-donuts.png),
       url(../images/desktop/header-bg/desktop-header-bg.png);
-    max-width: 1280px;
-    background-size: 178px, 723px, contain;
+    max-width: 1920px;
+    background-size: 178px auto, 723px auto, 100% 1035px;
     background-position: top 166px right 100%, top 0 right 0, top 0 center;
     background-repeat: no-repeat;
 
