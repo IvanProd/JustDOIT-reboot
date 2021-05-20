@@ -1,12 +1,15 @@
 .hero-section {
   margin-bottom: -23px;
+  padding-top: 33px;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 0px;
+    padding-top: 10px;
     padding-bottom: 70px;
   }
 
   @media screen and (min-width: 1280px) {
+    padding-top: 60px;
     padding-bottom: 10px;
   }
 }
@@ -15,15 +18,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 33px;
 
   @media screen and (min-width: 768px) {
     align-items: flex-start;
-    padding-top: 10px;
-  }
-
-  @media screen and (min-width: 1280px) {
-    padding-top: 60px;
   }
 }
 
@@ -31,11 +28,13 @@
   max-width: 224px;
   width: 100%;
   margin-bottom: 3px;
-  text-align: center;
   font-family: $title-font;
   @include fonts(400, 30px, 1.27);
-
   color: $main-text-cr;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 
   @media screen and (min-width: 1280px) {
     max-width: 490px;
@@ -47,10 +46,8 @@
 .hero__label {
   margin-bottom: 37px;
   font-family: $alternative-font-regular;
-  font-style: normal;
   @include fonts(500, 16px, 1.25);
   text-align: center;
-
   color: $main-text-cr;
 
   @media screen and (min-width: 768px) {
@@ -64,7 +61,8 @@
 }
 
 .hero__btn {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
+  -webkit-appearance: button;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
