@@ -3,20 +3,12 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-padding-bottom: 47px;
-
-@media screen and (min-width: 768px) {
-  padding-bottom: 50px;
-}
-
-@media screen and (min-width: 1280px) {
-  padding-bottom: 82px;
-}
   }
 
 .contact__lable {
   text-align: center;
   font-family: $alternative-font-regular;
+  margin-bottom: 27px;
   @include fonts(400, 16px, 1.0);
   color: $main-text-cr;
 
@@ -31,9 +23,6 @@ padding-bottom: 47px;
   align-items: center;
   margin: 0 0 37px 0;
 
-  @media screen and (min-width: 768px) {
-    margin: 0 0 27px 0;
-}
 }
 
 .contact__form-field {
@@ -45,16 +34,18 @@ padding-bottom: 47px;
   border-bottom: 1px solid #ab816c;
   background: transparent;
 
-  &:hover,
   &:focus {
     outline: none;
+    border-bottom: 2px solid #ab816c;
   }
+
   &:not(:last-child) {
     margin-bottom: 25px;
   }
 
   &::-webkit-input-placeholder {
     color: rgba(171, 129, 108, 0.5);
+   }
    }
 
    @media screen and (min-width: 768px) {
