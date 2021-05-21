@@ -1,17 +1,26 @@
+.program {
+  padding-bottom: 18px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 0px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 68px;
+  }
+}
+
 .program__container {
   display: block;
-  padding-bottom: 18px;
 
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0px;
   }
 
   @media screen and (min-width: 1280px) {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 68px;
   }
 }
 
@@ -23,6 +32,10 @@
 
 .grid__item:nth-child(even) {
   margin-top: 70px;
+
+  @media screen and (min-width: 456px) and (max-width: 767.98px) {
+    margin-left: 70px;
+  }
 
   @media screen and (min-width: 1280px) {
     margin-top: 41px;
@@ -38,7 +51,7 @@
 }
 
 .program__content-box {
-  width: 290px;
+  /*   width: 290px; */
 
   &:last-child {
     transform: translateY(0px);
@@ -154,16 +167,13 @@
 }
 
 .program__text-wrap {
-  /*   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     max-width: 336px;
   }
 
   @media screen and (min-width: 1280px) {
     max-width: 392px;
-    padding-top: 100px;
-    padding-bottom: 39px;
-    padding-right: 5px;
-  } */
+  }
 
   &--textblock-hidden {
     @media screen and (min-width: 1280px) {
@@ -181,13 +191,6 @@
   }
 }
 
-/* .program__text-add {
-  display: none;
-
-  @media screen and (min-width: 1280px) {
-    display: block;
-  }
-} */
 .program-card {
   transform: translateY(-30px);
 
