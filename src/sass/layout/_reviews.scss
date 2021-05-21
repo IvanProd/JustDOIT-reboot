@@ -1,19 +1,12 @@
 .reviews {
-  max-width: 290px;
-  margin: auto;
-
-  @media screen and (min-width: 768px) {
-    max-width: 626px;
-  }
-
   @media screen and (min-width: 1280px) {
-    max-width: 626px;
     margin: auto;
   }
 }
 .reviews__list {
   display: flex;
   justify-content: center;
+  margin-bottom: 17px;
 }
 
 .item-1,
@@ -145,10 +138,11 @@
 }
 .reviews__descriprtion {
   text-align: center;
-  margin-top: 17px;
   font-size: 16px;
   @media screen and (min-width: 1280px) and (min-width: 768px) {
     font-size: 18px;
+    margin: 0 auto;
+    width: 626px;
   }
 }
 
