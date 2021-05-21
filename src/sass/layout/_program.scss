@@ -27,7 +27,11 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+
+  @media screen and (min-width: 768px) {
+    justify-content: space-between;
+  }
 }
 
 .grid__item:nth-child(even) {
@@ -51,8 +55,6 @@
 }
 
 .program__content-box {
-  /*   width: 290px; */
-
   &:last-child {
     transform: translateY(0px);
     padding-bottom: 0px;
