@@ -1,6 +1,8 @@
 .reviews {
   max-width: 290px;
   margin: auto;
+  padding-left: 0;
+  padding-right: 0;
 
   @media screen and (min-width: 768px) {
     max-width: 626px;
