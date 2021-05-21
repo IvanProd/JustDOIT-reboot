@@ -11,11 +11,11 @@
                     <p class="registration__price">$ 699</p>
                 </div>
     
-                <form class="registration__form" >
+                <form class="registration__form" action="https://formspree.io/f/mdoyevoa" method="POST">
                     <label><span class="registration__entry-field--tittle">Apply your personal info for registration</span>
-                        <input class="registration__entry-field" type="text" placeholder="Your name" required pattern="^[a-zA-Z]+$">
-                        <input class="registration__entry-field" type="tel" placeholder="Phone number" required pattern="[0-9]{10,12}">
-                        <input class="registration__entry-field" type="email" placeholder="Email" required pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                        <input class="registration__entry-field" type="text" placeholder="Your name" name="user-name" required pattern="^[a-zA-Z]+$">
+                        <input class="registration__entry-field" type="tel" placeholder="Phone number" name="user-phone" required pattern="[0-9]{10,12}">
+                        <input class="registration__entry-field" type="email" placeholder="Email" name="user-email" required pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
                     </label>
                     <button class="registration__button btn" type="submit" >Register</button>
                 </form>
